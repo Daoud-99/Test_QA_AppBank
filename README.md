@@ -21,15 +21,10 @@ This project automates the **Bank Selection** on the Algoan App site:
 
 ## 🗂️ Project Structure
 
-📁 Projet-Algoan/
-├── src/
-│   ├── pages/
-│   ├── test/
-│ 
-├── cucumber.json
-├── package.json 
-├── package-lock.json
-├── README.md
+Project structure
+.github -> yml file to execute the tests in GitHub Actions
+src -> Contains all the features & Typescript code
+test-results -> Contains all the reports related file
 
 
 ---
@@ -61,6 +56,15 @@ npm install
 From the project root directory:
 
 npm run test
+
+---
+## 📊 Test Reports
+
+HTML test reports are generated in: Projet-Algoan\test-results
+Open the .html files in your browser to view the test results.
+![image](https://github.com/user-attachments/assets/ae402715-c4a0-4832-ace6-99bb42f24243)
+
+
 
 
 ---
