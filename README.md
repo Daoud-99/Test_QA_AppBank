@@ -61,7 +61,9 @@ npm run test
 ## 📊 Test Reports
 
 HTML test reports are generated in: Projet-Algoan\test-results
+
 Open the .html files in your browser to view the test results.
+
 ![image](https://github.com/user-attachments/assets/664f952f-a7fa-40d7-9ada-08a89bffadd1)
 
 
