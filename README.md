@@ -22,9 +22,12 @@ This project automates the **Bank Selection** on the Algoan App site:
 ## 🗂️ Project Structure
 
 Project structure
+
 .github -> yml file to execute the tests in GitHub Actions
+
 src -> Contains all the features & Typescript code
-test-results -> Contains all the reports related file
+
+test-result -> Contains all the reports related file + screenshoots
 
 
 ---
@@ -48,8 +51,8 @@ cd Projet-Algoan
 ### 2. Install dependencies
 npm install
 
-# 3. Install dependencies
-npm install
+### 3. Install dependencies
+npx 
 
 ### 4. Run the Tests
 
@@ -60,9 +63,12 @@ npm run test
 ---
 ## 📊 Test Reports
 
-HTML test reports are generated in: Projet-Algoan\test-results
-Open the .html files in your browser to view the test results.
-![image](https://github.com/user-attachments/assets/ae402715-c4a0-4832-ace6-99bb42f24243)
+HTML test reports are generated in: Projet-Algoan\test-result.
+
+Open the .html files in your browser to view the test result.
+
+![image](https://github.com/user-attachments/assets/664f952f-a7fa-40d7-9ada-08a89bffadd1)
+
 
 
 
