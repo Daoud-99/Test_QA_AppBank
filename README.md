@@ -49,7 +49,7 @@ cd Projet-Algoan
 npm install
 
 ### 3. Install dependencies
-npm install
+npx 
 
 ### 4. Run the Tests
 
