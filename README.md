@@ -22,8 +22,11 @@ This project automates the **Bank Selection** on the Algoan App site:
 ## 🗂️ Project Structure
 
 Project structure
+
 .github -> yml file to execute the tests in GitHub Actions
+
 src -> Contains all the features & Typescript code
+
 test-result -> Contains all the reports related file + screenshoots
 
 
