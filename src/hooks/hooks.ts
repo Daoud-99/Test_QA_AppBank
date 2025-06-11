@@ -2,6 +2,8 @@ import { Before, After, Status } from "@cucumber/cucumber";
 import { chromium, Browser, BrowserContext, Page } from "@playwright/test";
 
 
+
+
 let browser: Browser;
 let context: BrowserContext;
 let page: Page;
@@ -17,7 +19,7 @@ Before(async function () {
 // Après chaque scénario
 After(async function (scenario) {
   const scenarioName = scenario.pickle.name.replace(/[^a-zA-Z0-9-_]/g, "_");
-  const screenshotPath = `./test-results/screenshots/${scenarioName}.png`;
+  const screenshotPath = `./test-result/screenshots/${scenarioName}.png`;
 
   // Prendre le screenshot
   const img = await this.page.screenshot({ path: screenshotPath, fullPage: true });
@@ -29,3 +31,6 @@ After(async function (scenario) {
   await context.close();
   await browser.close();
 });
+
+
+
