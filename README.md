@@ -48,7 +48,7 @@ cd Projet-Algoan
 ### 2. Install dependencies
 npm install
 
-# 3. Install dependencies
+### 3. Install dependencies
 npm install
 
 ### 4. Run the Tests
